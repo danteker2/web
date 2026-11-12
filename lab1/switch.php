@@ -1,6 +1,6 @@
 <?php
 
-$day = date(d);
+$day = date("d");
 
 
 switch ($day) {
