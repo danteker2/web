@@ -21,9 +21,7 @@ $opel = [
     'year'       => '2007',
 ];
 
-echo "bmw - {$bmw['model']} - {$bmw['speed, km/h']} - {$bmw['doors']} - {$bmw['year']}<br>";
-echo "toyota - {$toyota['model']} - {$toyota['speed, km/h']} - {$toyota['doors']} - {$toyota['year']}<br>";
-echo "opel - {$opel['model']} - {$opel['speed, km/h']} - {$opel['doors']} - {$opel['year']}<br>";
+
 ?>
 
 <!DOCTYPE html>
@@ -34,5 +32,8 @@ echo "opel - {$opel['model']} - {$opel['speed, km/h']} - {$opel['doors']} - {$op
 </head>
 <body>
     <h1>Массивы</h1>
+    <p> bmw - <?= "$bmw['model']" ?> - <?= "$bmw['speed, km/h']" ?> - <?= "$bmw['doors']" ?>- <?= "$bmw['year']" ?> </p> 
+    <p> toyota - <?= "$toyota['model']" ?> - <?= "$toyota['speed, km/h']" ?> - <?= "$toyota['doors']" ?>- <?= "$toyota['year']" ?> </p> 
+    <p> opel - <?= "$opel['model']" ?> - <?= "$opel['speed, km/h']" ?> - <?= "$opel['doors']" ?>- <?= "$opel['year']" ?> </p> 
 </body>
 </html>
