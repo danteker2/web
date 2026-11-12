@@ -1,6 +1,6 @@
 <?php
 
-$day = 3;
+$day = date(d);
 
 $message = match (true) {
     $day >= 1 && $day <= 5 => 'Это рабочий день',
