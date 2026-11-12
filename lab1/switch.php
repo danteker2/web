@@ -1,6 +1,6 @@
 <?php
 
-$day = 3;
+$day = date(d);
 
 
 switch ($day) {
@@ -28,6 +28,6 @@ switch ($day) {
     <title>Задание 7</title>
 </head>
 <body>
-    <p><?php echo $message; ?></p>
+    <p><?= $message; ?></p>
 </body>
 </html>
