@@ -12,15 +12,14 @@ if ($age >= 18 && $age <= 59) {
     $message = 'Неизвестный возраст';
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Конструкции if-elseif-else</title>
+    <title>Задание 6</title>
 </head>
 <body>
-    <h1>Конструкции if-elseif-else</h1>
     <p><?php echo $message; ?></p>
 </body>
 </html>
