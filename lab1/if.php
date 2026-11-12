@@ -20,6 +20,6 @@ if ($age >= 18 && $age <= 59) {
     <title>Задание 6</title>
 </head>
 <body>
-    <p><?php echo $message; ?></p>
+    <p><?= $message; ?></p>
 </body>
 </html>
