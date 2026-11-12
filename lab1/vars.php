@@ -9,8 +9,6 @@ echo "Мне $age лет<br>";
 echo "Тип переменной \$name: " . gettype($name) . "<br>";
 echo "Тип переменной \$age: " . gettype($age) . "<br>";
 
-unset($name);
-unset($age);
 ?>
 
 <!DOCTYPE html>
@@ -24,3 +22,8 @@ unset($age);
     <p> Мне <?= "$age" ?> лет </p> <br>
 </body>
 </html>
+
+<?php   
+    unset($name);
+    unset($age);
+?>
