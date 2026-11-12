@@ -1,14 +1,6 @@
 <?php
-
 $name = 'Никита';
 $age = 22;
-
-echo "Меня зовут: $name<br>";
-echo "Мне $age лет<br>";
-
-echo "Тип переменной \$name: " . gettype($name) . "<br>";
-echo "Тип переменной \$age: " . gettype($age) . "<br>";
-
 ?>
 
 <!DOCTYPE html>
@@ -18,8 +10,10 @@ echo "Тип переменной \$age: " . gettype($age) . "<br>";
     <title>Задание 5</title>
 </head>
 <body>
-    <p> Меня зовут: <?= "$name" ?> </p> <br>
-    <p> Мне <?= "$age" ?> лет </p> <br>
+    <p> Меня зовут: <?= "$name" ?> </p>
+    <p> Мне <?= "$age" ?> лет </p>
+    <p> Тип переменной <?php "\$name" . gettype($name) . ?> лет </p>
+    <p> Тип переменной <?php "\$age" . gettype($age) . ?> лет </p>
 </body>
 </html>
 
