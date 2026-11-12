@@ -20,7 +20,7 @@ unset($age);
     <title>Задание 5</title>
 </head>
 <body>
-    <p> Меня зовут: <?=$name?> </p> <br>
-    <p> Мне <?=$age?> лет </p> <br>
+    <p> Меня зовут: <?="$name"?> </p> <br>
+    <p> Мне <?="$age"?> лет </p> <br>
 </body>
 </html>
