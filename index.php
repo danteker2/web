@@ -9,6 +9,7 @@
     <h1>Лабораторная работа №1</h1>
     <h2>Список скриптов:</h2>
     <ul>
+        <li><a href="lab1/phpinfo.php">phpinfo.php — настройки PHP</a></li>
         <li><a href="lab1/vars.php">vars.php — Переменные и вывод</a></li>
         <li><a href="lab1/if.php">if.php — Конструкции if-elseif-else</a></li>
         <li><a href="lab1/switch.php">switch.php — Конструкция switch</a></li>
