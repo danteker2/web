@@ -12,8 +12,8 @@ $age = 22;
 <body>
     <p> Меня зовут: <?= "$name" ?> </p>
     <p> Мне <?= "$age" ?> лет </p>
-    <p> Тип переменной <?php "\$name" . gettype($name) . ?> лет </p>
-    <p> Тип переменной <?php "\$age" . gettype($age) . ?> лет </p>
+    <p> Тип переменной - <?php echo "\$name" . gettype($name); ?> </p>
+    <p> Тип переменной - <?php echo "\$age" . gettype($age); ?> </p>
 </body>
 </html>
 
