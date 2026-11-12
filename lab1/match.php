@@ -16,6 +16,6 @@ $message = match (true) {
     <title>Задание 7.2</title>
 </head>
 <body>
-    <p><?php echo $message; ?></p>
+    <p><?= $message; ?></p>
 </body>
 </html>
