@@ -19,6 +19,8 @@ unset($age);
     <meta charset="UTF-8">
     <title>Задание 5</title>
 </head>
-<body>    
+<body>
+    <p> Меня зовут: <?=$name?> </p> <br>
+    <p> Мне <?=$age?> лет </p> <br>
 </body>
 </html>
