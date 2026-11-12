@@ -1,17 +1,5 @@
 <?php
-
 define('site', 'Мой сайт');
-
-
-if (defined('site')) {
-    echo "Константа site существует. Её значение: " . site . "<br>";
-} else {
-    echo "Константа site не существует.<br>";
-}
-
-
-echo "Версия PHP: " . PHP_VERSION . "<br>";
-echo "Директория скрипта: " . __DIR__ . "<br>";
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +9,14 @@ echo "Директория скрипта: " . __DIR__ . "<br>";
     <title>Задание 10</title>
 </head>
 <body>
-    
+    <?php
+        if (defined('site')) {
+            echo "Константа site существует. Её значение: " . site . "<br>";
+        } else {
+            echo "Константа site не существует.<br>";
+        }
+    ?>
+    <p> Версия PHP: <?= . PHP_VERSION ?> </p>
+    <p> Директория скрипта: <?= . __DIR__ ?> </p>
 </body>
 </html>
